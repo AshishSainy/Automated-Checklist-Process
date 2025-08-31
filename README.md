@@ -29,7 +29,7 @@ Benefits:
 Seamless integration with Microsoft 365.
 Version history and permissions control.
 Can be customized with Power Automate for workflows and notifications.
-You can view the created SP list and rules used in folder 'SP List'
+You can view the created SP list and rules used in folder 'SP List'.
 
 3. Automated Reporting with Power BI
 Connect the checklist data source , SharePoint to Power BI.
