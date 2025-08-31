@@ -12,3 +12,28 @@ Allow dynamic updates to the checklist without manual redistribution.
 Ensure version control and consistency across all users.
 Enable centralized data collection and automated reporting for better insights and efficiency.
 
+**Problem Statement** 
+You can see existing checklist in file named 'OLD_Excel_Checklist'.
+
+**Final Solution**
+1. Move to a Web-Based Checklist System
+Tools: Microsoft Power Apps.
+Benefits:
+Centralized checklist management.
+Real-time updates and version control.
+Easy access from any device.
+You can view the created power app code,screenshots,formulas used in folder 'Checklist App'.
+
+2. Use SharePoint or Microsoft Lists
+Benefits:
+Seamless integration with Microsoft 365.
+Version history and permissions control.
+Can be customized with Power Automate for workflows and notifications.
+You can view the created SP list and rules used in folder 'SP List'
+
+3. Automated Reporting with Power BI
+Connect the checklist data source , SharePoint to Power BI.
+Create dashboards for audit results, trends, and compliance metrics.
+Schedule refreshes and share reports securely.
+You can view the Power bi dashboard screenshots and dax used in folder 'Power BI'
+Built-in data validation and user tracking.
