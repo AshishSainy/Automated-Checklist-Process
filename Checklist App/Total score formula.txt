@@ -1,0 +1,36 @@
+Text(
+    Round(
+        (Sum(
+            If(DataCardValue9_1.Selected.Value = "OK", 1, 0),
+			If(DataCardValue10_1.Selected.Value = "OK", 1, 0),
+            If(DataCardValue11_1.Selected.Value = "OK", 1, 0),
+            If(DataCardValue16_1.Selected.Value = "OK", 1, 0),
+            If(DataCardValue38.Selected.Value = "OK", 1, 0),
+            If(DataCardValue39.Selected.Value = "OK", 1, 0),
+            If(DataCardValue40.Selected.Value = "OK", 1, 0),
+            If(DataCardValue41.Selected.Value = "OK", 1, 0),
+            If(DataCardValue42.Selected.Value = "OK", 1, 0),
+            If(DataCardValue43.Selected.Value = "OK", 1, 0),
+            If(DataCardValue44.Selected.Value = "OK", 1, 0),
+            If(DataCardValue45.Selected.Value = "OK", 1, 0),
+            If(DataCardValue46.Selected.Value = "OK", 1, 0),
+            If(DataCardValue47.Selected.Value = "OK", 1, 0),
+            If(DataCardValue48.Selected.Value = "OK", 1, 0),
+			If(DataCardValue49.Selected.Value = "OK", 1, 0),
+            If(DataCardValue50.Selected.Value = "OK", 1, 0),
+            If(DataCardValue51.Selected.Value = "OK", 1, 0),
+            If(DataCardValue52.Selected.Value = "OK", 1, 0),
+			If(DataCardValue53.Selected.Value = "OK", 1, 0),
+			If(DataCardValue54.Selected.Value = "OK", 1, 0),
+			If(DataCardValue55.Selected.Value = "OK", 1, 0),
+			If(DataCardValue56.Selected.Value = "OK", 1, 0),
+			If(DataCardValue57.Selected.Value = "OK", 1, 0),
+			If(DataCardValue58.Selected.Value = "OK", 1, 0),
+			If(DataCardValue59.Selected.Value = "OK", 1, 0),
+			If(DataCardValue60.Selected.Value = "OK", 1, 0),
+			If(DataCardValue61.Selected.Value = "OK", 1, 0),
+			If(DataCardValue62.Selected.Value = "OK", 1, 0)
+        ) / 29) * 100,
+        2
+    ) & "%"
+)
