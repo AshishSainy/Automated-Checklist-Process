@@ -1,0 +1,18 @@
+Total Fail = CALCULATE(COUNTROWS('Inspection Checklist'), 'Inspection Checklist'[Value] = "Not OK")
+
+Total Pass = CALCULATE(COUNTROWS('Inspection Checklist'), 'Inspection Checklist'[Value] = "OK")
+
+Total Opportunities = [Total Pass] + [Total Fail]
+
+Total Score = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('Inspection Checklist'),
+        'Inspection Checklist'[Value] = "OK"
+    ),
+    CALCULATE(
+        COUNTROWS('Inspection Checklist'),
+        'Inspection Checklist'[Value] IN { "OK", "Not OK" }
+    ),
+    0
+)
